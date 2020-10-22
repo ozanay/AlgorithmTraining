@@ -1,0 +1,2 @@
+# AlgorithmTraining
+Includes Codility lessons.
