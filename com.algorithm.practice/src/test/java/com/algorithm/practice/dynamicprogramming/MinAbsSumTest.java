@@ -8,7 +8,12 @@ import org.junit.jupiter.params.provider.MethodSource;
 public class MinAbsSumTest {
     private static Object[][] cases() {
         return new Object[][] {
-            {new int[] {1, 5, 2, -2}, 0}
+            {new int[] {4, 4, 4, 4, 17}, 1},
+            {new int[] {3, 3, 3, 4, 5}, 0},
+            {new int[] {1, 5, 2, -2}, 0},
+            {new int[] {4, 4, -4, 4, 17}, 1},
+            {new int[] {4, 4, 4, 5, -5}, 2},
+            {new int[] {1, 5, -2, 5, 2, 3}, 0},
         };
     }
 
